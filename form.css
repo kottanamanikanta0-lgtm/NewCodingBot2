@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+form{
+    background-color: aqua;
+    height: 50vh;
+    padding: 20px;
+}
+input,label{
+    margin: 10px;
+}
+input[type="text"],inout[type="password"],textarea{
+    background-color: darkkhaki;
+}
+input[type="text"]:hover{
+    background-color: rgb(185, 177, 61);
+}
+input[type="submit"]{
+    background-color: chartreuse;
+    border: none;
+    border-radius: 20px;
+    transition: 10s;
+}
+input[type="submit"]:hover{
+    background-color: rgb(87, 190, 43);
+    transform: scale(10);
+}
+input:focus,textarea:focus{
+    background-color: coral;
+}

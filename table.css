@@ -1,0 +1,23 @@
+table,th,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 30px;
+    width: ;
+    height: ;
+    color: blueviolet;
+    text-align: center;
+
+
+}
+table{
+    background-color:wheat;
+    background-image: url();
+    background-size:cover;
+
+}
+td:hover,th:hover{
+    background-color: yellowgreen;
+}
+tr:nth-child(odd){
+    background-color: yellow;
+}
